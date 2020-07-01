@@ -2,7 +2,7 @@
 Time In Profile Pic.....
 Command: `.epp`
 
-Custom / Modified Plugin for some magical effects by this Legendary Guy @Sur_vivor 
+Custom / Modified Plugin for some magical effects by this Legendary Guy @Villain_Of_Telegram
 
 
 #curse: who ever edits this credit section will goto hell
@@ -42,7 +42,7 @@ async def autopic(event):
     
         shutil.copy(downloaded_file_name, photo)
         im = Image.open(photo)
-        current_time = datetime.now().strftime("@Sur_vivor \n \nTime: %H:%M:%S \nDate: %d/%m/%y")
+        current_time = datetime.now().strftime("@Villain_Of_Teelgram \n \nTime: %H:%M:%S \nDate: %d/%m/%y")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
         fnt = ImageFont.truetype(FONT_FILE_TO_USE, 23)
