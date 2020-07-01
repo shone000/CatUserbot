@@ -15,7 +15,7 @@ else:
   CAT_IMG = ALIVE_PIC
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Sur_vivor"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Villain"
 
 cat_caption = "**MY BOT IS RUNNING SUCCESFULLY**\n\n"
 cat_caption += f"☞`Telethon Version:` **{version.__version__}**\n"
@@ -23,9 +23,9 @@ cat_caption += f"☞`Python Version:` **{python_version()}**\n"
 cat_caption += "☞**Always With You, My Master!**\n"
 cat_caption += f"☞`Owner Name :` {DEFAULTUSER}\n"
 cat_caption += "☞`Database Status :` Databases Functioning Normally!\n"
-cat_caption += "☞`Modified by :` [✰Sᴀͥʀᴀͣᴛͫʜ™️✰](http://t.me/Sur_vivor)\n"
+cat_caption += "☞`Modified by :` [Villain](http://t.me/Villain_Of_Telegram)\n"
 cat_caption += "☞`Created by :` snapdragon, anubis, sandeep\n\n"
-cat_caption += "**[⚜️DEPLOY CATUSERBOT⚜️](https://github.com/Sur-vivor/CatUserbot)**"
+cat_caption += "**[⚜️DEPLOY CATUSERBOT⚜️](https://github.com/DONOFTELEGRAM/CatUserbot)**"
 
 
 @borg.on(admin_cmd(pattern=r"alive"))
